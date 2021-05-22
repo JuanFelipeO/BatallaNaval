@@ -4,6 +4,16 @@
              xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
              version="3.0">
   <persistence-unit name="default">
-
+      <class>com.uamnizales.batallanaval.batallanaval.modelo.entidades.Barcos</class>
+    <class>com.uamnizales.batallanaval.batallanaval.modelo.entidades.Juego</class>
+    <class>com.uamnizales.batallanaval.batallanaval.modelo.entidades.Jugador</class>
+    <class>com.uamnizales.batallanaval.batallanaval.modelo.entidades.TipoUsurio</class>
+    <class>com.uamnizales.batallanaval.batallanaval.modelo.entidades.Usuario</class>
+<!--
+    <properties>
+       <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+    -->
   </persistence-unit>
+
 </persistence>
